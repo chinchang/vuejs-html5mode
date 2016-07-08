@@ -9,7 +9,8 @@ Vue.use(Router);
 
 var router = new Router({
 	hashbang: false,
-	history: true
+	history: true,
+	root: '/vuejs-html5mode'
 });
 
 router.map({
