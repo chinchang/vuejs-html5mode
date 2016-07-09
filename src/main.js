@@ -20,15 +20,6 @@ router.map({
   '/user': {
     component: User,
   },
-  /*'/product': {
-    component: Product,
-  }*/
 })
-
-/*new Vue({
-  el: 'body',
-  components: { App }
-})
-*/
 
 router.start(App, 'app');
